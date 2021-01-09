@@ -1,0 +1,76 @@
+html {
+    /* set base font size for easier rem calculation */
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+    /* set color of text */
+    color: #333;
+
+    font-size: 1.6rem;
+
+    /* horizontal align */
+    text-align: center;
+
+    line-height: 1.5;
+}
+
+main {
+    background-color: #eee;
+    padding: 15px;
+
+    /* 
+        margin: value1 value2
+
+        value1: top and bottom
+        value2: left and right
+    */
+    margin: 30px 8px;
+
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+figure {
+    background-color: white;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+figcaption {
+    margin: 15px 0 5px 0;
+}
+
+#headline {
+    margin: 50px 0px;
+}
+
+ul {
+    max-width: 600px;
+    text-align: left;
+    margin: 0px auto 50px auto;
+    line-height: 1.8;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    max-width: 600px;
+    margin: 0px auto 50px auto;
+    text-align: left;
+}
+
